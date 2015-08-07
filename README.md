@@ -6,7 +6,7 @@
 
 ##Processing基本テンプレート
 
-```Processing
+```Processing:first.pde
 void setup() {
 }
 void draw() {

@@ -3,3 +3,12 @@
 これは、
 [「クリエイティブ・コーディング・スクール in さっぽろ 2015」](http://ccss.lab.sugimototatsuo.com/2015/)
 第1回 Processingでコーディング入門の演習ファイルです。
+
+##Processing基本テンプレート
+
+```Processing
+void setup() {
+}
+void draw() {
+}
+```

@@ -6,7 +6,7 @@
 
 ##Processing基本テンプレート
 
-```processing:first.pde
+```processing
 void setup() {
 	//最初に1回だけ実行するコードをここに書きます
 	size(600, 600);

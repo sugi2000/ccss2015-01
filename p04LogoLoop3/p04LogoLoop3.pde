@@ -16,6 +16,10 @@ void setup() {
 void draw() {
   int num = int(map(mouseX, 0, width, 1, 11));
   float logoSize = width / num;
+  
+  println(map(mouseX, 0, width, 1, 11));
+  println(num);
+  
   // ロゴを描く
   for (int i = 0; i < num; i++) {
     for (int j = 0; j < num; j++) {
@@ -41,7 +45,6 @@ void logo(float x, float y, float w, float h) {
   rect(x + uw * 2, y + uh * 2, uw, uh);
 
   float r = dist(uw, 0, w / 2.0, h / 2.0);
-  println(r);
   
   fill(255); // White
   arc(x + w / 2.0, y + h / 2.0, r * 2, r * 2, atan2(-uh / 2.0, - w / 2.0), atan2(- h / 2.0, - uw / 2.0));

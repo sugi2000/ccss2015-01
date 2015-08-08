@@ -40,3 +40,13 @@ X軸は右向き、Y軸は**下向き**です。
 |楕円|ellipse(a, b, c, d);|
 |円弧|arc(a, b, c, d, start, stop);|
 
+##関数を自作しよう
+
+rect(x, y, w, h)の代わりに、logo(x, y, w, h)という関数を作る。
+
+```processing
+void logo(float x, float y, float w, float h) {
+	//ここにロゴを描くコードを書く
+}
+```
+

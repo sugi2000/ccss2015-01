@@ -29,6 +29,29 @@ X軸は右向き、Y軸は**下向き**です。
 
 ![座標系](https://processing.org/reference/environment/images/coordinates2D3D.png)
 
+##描画の設定をする関数
+
+図形を描く前に塗りの色や線の色を設定します。
+
+| 項目 | 関数 |
+|---|---|
+|塗りの色|fill(color);|
+|線の色|stroke(color);|
+|線の太さ|strokeWeight(pixel);|
+|塗りなし|noFill();|
+|線なし|noStroke();|
+
+##色の指定方法
+
+ToolメニューのColor Selectorで選ぶのが簡単です。
+
+| 項目 | 関数 |値の範囲|
+|---|---|---|
+|グレー|(gray)|(0~255)|
+|グレー（透明度つき）|(gray, alpha)|(0~255, 0~255)|
+|カラー|(red, green, blue)|(0~255, 0~255, 0~255)|
+|カラー（透明度つき）|(red, green, blue, alpha)|(0~255, 0~255, 0~255, 0~255)|
+
 ##図形を描く関数
 
 | 図形 | 関数 |

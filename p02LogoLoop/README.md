@@ -2,7 +2,7 @@
 
 #ループして図形を描く
 
-```Processing:first.pde
+```processing
 // 最初に1回実行される関数
 void setup() {
   // ウィンドウのサイズ

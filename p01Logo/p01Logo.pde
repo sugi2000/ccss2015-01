@@ -39,7 +39,7 @@ void logo(float x, float y, float w, float h) {
   println(r);
   
   fill(255); // White
-  arc(x + w / 2.0, y + h / 2.0, r * 2, r * 2, 0, TWO_PI);
+  ellipse(x + w / 2.0, y + h / 2.0, r * 2, r * 2);
   //arc(x + w / 2.0, y + h / 2.0, r * 2, r * 2, atan2(-uh / 2.0, - w / 2.0), atan2(- h / 2.0, - uw / 2.0));
   //arc(x + w / 2.0, y + h / 2.0, r * 2, r * 2, atan2(uh /2.0, w / 2.0), atan2(h / 2.0, uw / 2.0));
   
